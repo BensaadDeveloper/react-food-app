@@ -1,0 +1,27 @@
+:root {
+    --color-orange : #ff5e00 ;
+}
+
+
+footer {
+    border-top: 2px solid #27ae60;
+    margin-top: 3.5rem;
+    padding: 1.25rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-orange);
+}
+
+footer p {
+    font-weight: 500;
+    max-width: 595px;
+    margin-right: 0.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 576px) {
+    footer p {
+        font-size: 0.85rem;
+    }
+}

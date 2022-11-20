@@ -1,0 +1,24 @@
+:root {
+    --color-orange : #ff5e00 ;
+}
+
+
+.btnAddRemove {
+    display: flex;
+    align-items: center;
+    width: 65px;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 0.4rem;
+    cursor: pointer;
+    font-size: 0.75rem;
+    background-color: #27ae60;
+    color: #F5F5F6;
+}
+
+.btnAddRemove-negative, .btnAddRemove-positive {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+:root {
+    --color-orange : #ff5e00 ;
+}
+
+.logo {
+    min-width: fit-content;
+    color : var(--color-orange)
+}
+
+.logo img {
+    width: 2.5rem;
+    margin-right: 0.65rem;
+}
+
+.logo > div {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 1.15rem;
+}
+
+.logo p {
+    font-size: 0.7rem;
+}

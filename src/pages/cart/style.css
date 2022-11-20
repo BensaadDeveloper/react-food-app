@@ -1,0 +1,33 @@
+:root {
+    --color-orange : #ff5e00 ;
+}
+
+.cart-header {
+    padding-top: .5rem;
+}
+
+.orders {
+    margin: 2rem 0 0; 
+    min-height: calc(100vh - 15rem);
+    color: #27ae60;
+}
+
+.orders-heading, .orders-total {
+    width: 100%;
+    max-width: 625px;
+}
+
+.orders-heading {
+    border-bottom: 2px solid  var(--color-orange);
+    margin-bottom: 4.5rem;
+    padding-bottom: 0.65rem;
+    
+}
+
+.orders-total {
+    border-top: 2px solid var(--color-orange);
+    text-align: right;
+    margin-left: auto;
+    margin-top: 2.5rem;
+    padding-top: 0.5rem;
+}

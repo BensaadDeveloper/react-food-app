@@ -1,0 +1,41 @@
+:root {
+    --color-orange : #ff5e00 ;
+}
+
+.emptyCart {
+    height: calc(100vh - 5.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyCart img {
+    width: 70%;
+    height: 60%;
+    object-fit: contain;
+    max-width: 255px;
+    max-height: 255px;
+    margin-bottom: 3rem;
+}
+
+.emptyCart button {
+    background-color: var(--color-orange);
+    color: #f5F5F6;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2.15rem 1.25rem 1.25rem;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 35px 35px 35px 0 ;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.emptyCart button .fas {
+    font-size: 1.7rem;
+    right: 0;
+}
